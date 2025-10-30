@@ -1,7 +1,7 @@
 # Sistema de Padaria - Bumba meu Pão
 
 ## Sobre
-Esse repositório contém um sistema de padaria onde o usuário pode registrar os produtos e os pedidos dos clientes com um carrinho. É um trabalho para a Atividade 6 - Desenvolvimento de um CRUD para Padaria da matéria de Desenvolvimento de Sistemas.
+É um trabalho de revisão - Desenvolvimento de um CRUD da matéria de Desenvolvimento de Sistemas.
 
 ## Entregas:
 - Diagrama Entidade-Relacionamento;
