@@ -1,9 +1,19 @@
-body {
-    margin: 0px;
-    padding: 0px;
+body{
+    margin: 400px 0px 100px 700px;
 }
 
 .navbar {
     color: white;
     display: flex;
 } 
+
+.entrar{
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 231);
+    padding: 10px 155px 10px 155px;
+    align-content: center;
+    margin-top: 20%;
+    text-decoration: none;
+    border: 0; 
+}

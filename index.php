@@ -1,13 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Gerenciamento de Tarefas</title>
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
 
-<a href="public/create-usuarios.php">Entrar no Sistema!</a>
+    </header>
+    <main>
+        <div>
+            <a href="public/create-usuarios.php" class="entrar">Entrar no sistema</a>
+        </div>
+    </main>
     
 </body>
 </html>
