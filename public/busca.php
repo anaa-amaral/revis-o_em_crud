@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <title>Busca de repositório de Git</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         *{
@@ -30,6 +31,16 @@
     </style>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg" style="background-color:rgb(74, 151, 196);">
+    <div class="container-fluid">
+        <h3 class="text-white">Gerenciamento de Tarefas</h3>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-white" href="create-usuarios.php">Usuários</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="create-tarefas.php">Tarefas</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="read-gerenciar.php">Gerenciar</a></li>
+        </ul>
+    </div>
+</nav>
     
 <h1class="m-10"> Busca de reposilório no GitHub</h1>
     <divclass="m-10">
