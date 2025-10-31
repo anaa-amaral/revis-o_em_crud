@@ -21,8 +21,8 @@
     </div>
 </nav>
     
-<h3 class="m-10"> Busca de repositório no GitHub</h3>
-    <divclass="m-10">
+<h2 class="m-10"> Busca de repositório no GitHub</h2>
+    <div class="card2">
         <label for="">Nome do Usuário</label>
         <input type="text" id="nome">
         <button onclick="getApi()">Buscar</button>
