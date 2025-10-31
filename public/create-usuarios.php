@@ -49,9 +49,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input name="email" type="email" class="form-control" required>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary">Cadastrar</button>
+            <button class="btn btn-primary" onclick="getApi()">Cadastrar</button>
         </div>
     </form>
+
+
+    
 </div>
 </body>
 </html>

@@ -18,15 +18,15 @@
     
 <?php
 
-include 'conexao.php';
+include '../includes/conexao.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-    $user = $_POST["usarname"] ?? "";
+    $user = $_POST["nome"] ?? "";
     $pass = $_POST["senha"] ?? "";
     $email  = $_POST['email'] ?? "";
 
-    $sql = " INSERT INTO usuarios (usarname,senha,email) VALUE ('$user','$pass','$email')";
+    $sql = " INSERT INTO usuarios (nome,senha,email) VALUE ('$user','$pass','$email')";
 
     if ($conn->query($sql) === true) {
         echo "Novo registro criado com sucesso.";
@@ -36,14 +36,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $conn->close();
 }
 else {
-        $senhaHash = password_hash($pass, PASSWORD_DEFAULT);
 }
 
 ?>
 
     <h3>Crie seu cadastro</h3>
-    <form method="post" action="create.php">
-      <input type="text" name="usarname" placeholder="Usuário" required>
+    <form method="post" action="create-tarefas.php">
+      <input type="text" name="nome" placeholder="Usuário" required>
       <input type="password" name="senha" placeholder="Senha" required>
       <input type="email" name="email" placeholder="Email" required>
 

@@ -12,7 +12,7 @@
     </header>
     <main>
         <div>
-            <a href="public/create-usuarios.php" class="entrar">Entrar no sistema</a>
+            <a href="public/login.php" class="entrar">Entrar no sistema</a>
         </div>
     </main>
     
