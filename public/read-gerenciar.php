@@ -16,7 +16,7 @@ $tarefas = $mysqli->query("
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg" style="background-color:rgb(161, 161, 161);">
+<nav class="navbar navbar-expand-lg" style="background-color:rgb(74, 151, 196);">
     <div class="container-fluid">
         <h3 class="text-white">Gerenciamento de Tarefas</h3>
         <ul class="navbar-nav ms-auto">
