@@ -34,12 +34,12 @@
             <li class="nav-item"><a class="nav-link text-white" href="create-usuarios.php">Usuários</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="create-tarefas.php">Tarefas</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="read-gerenciar.php">Gerenciar</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="busca.php">Gerenciar</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="busca.php">Buscar repositório</a></li>
         </ul>
     </div>
 </nav>
     
-<h2 class="m-10"> Busca de repositório no GitHub</h2>
+<h3 class="m-10"> Busca de repositório no GitHub</h3>
     <divclass="m-10">
         <label for="">Nome do Usuário</label>
         <input type="text" id="nome">
