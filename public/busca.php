@@ -12,11 +12,7 @@
             margin: 0;
             padding: 0;
         }
-        body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+        
         hr{
             width: 50vw;
             margin: 10px;
@@ -38,16 +34,16 @@
             <li class="nav-item"><a class="nav-link text-white" href="create-usuarios.php">Usuários</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="create-tarefas.php">Tarefas</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="read-gerenciar.php">Gerenciar</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="busca.php">Gerenciar</a></li>
         </ul>
     </div>
 </nav>
     
-<h1class="m-10"> Busca de reposilório no GitHub</h1>
+<h2 class="m-10"> Busca de repositório no GitHub</h2>
     <divclass="m-10">
         <label for="">Nome do Usuário</label>
         <input type="text" id="nome">
         <button onclick="getApi()">Buscar</button>
-        <hr>
     </div>
 
 <ul class="m-10">

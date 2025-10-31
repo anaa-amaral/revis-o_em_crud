@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <li class="nav-item"><a class="nav-link text-white" href="create-usuarios.php">Usuários</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="create-tarefas.php">Tarefas</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="read-gerenciar.php">Gerenciar</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="busca.php">Gerenciar</a></li>
         </ul>
     </div>
 </nav>
