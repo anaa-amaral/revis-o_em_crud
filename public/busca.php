@@ -7,6 +7,25 @@
     <title>Busca de repositório de Git</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        hr{
+            width: 50vw;
+            margin: 10px;
+        }
+        .m-10{
+            margin: 10px;
+        }
+        li{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg" style="background-color:rgb(74, 151, 196);">
@@ -22,7 +41,7 @@
 </nav>
     
 <h2 class="m-10"> Busca de repositório no GitHub</h2>
-    <div class="card2">
+    <div class="m-10">
         <label for="">Nome do Usuário</label>
         <input type="text" id="nome">
         <button onclick="getApi()">Buscar</button>

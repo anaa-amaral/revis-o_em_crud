@@ -48,24 +48,3 @@ a:link {
 a:hover {
     color: rgb(255, 255, 255);
 }
-
-hr{
-    width: 50vw;
-    margin: 10px;
-}
-
-.m-10{
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-li{
-    display: flex;
-    flex-direction: column;
-}
-
-.card2 {
-      padding: 20px;
-      border-radius: 6px;
-      margin: 3% 3%;
-  }
